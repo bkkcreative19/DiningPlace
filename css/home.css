@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero-img {
+    background: url(/Dining-Place/images/homepage/hero-bg-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+
+.header-content {
+    background-color: #111111;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    color: #fff; 
+}
+
+.header-container {
+    justify-content: space-between;
+    height: 65%;
+}
+
+
+.logo {
+    width: 10rem;
+    margin-top: 1.7rem;
+ }
+
+ .header-container h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-top: 4rem;
+}
+.header-container p{
+    margin-top: 1.8rem;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.btn{
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #111111;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 2rem 5.5rem;
+    font-weight: 300;
+    margin-top: 4rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.header-container .btn:hover {
+    background-color: #fff;
+    color: #111111;
+}
+
+/* Second Section */
+#section-two {
+    margin-top: 4rem;
+}
+
+#section-two img{
+    height: 42rem;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.425);
+}
+
+.section-two-container {
+    margin: 0 auto;
+}
+
+.first-img img{
+    position: relative;
+    top: -10.5rem;
+}
+
+.first-img-content {
+    position: relative;
+    top: -4rem;
+}
+
+#section-two h2 {
+    color: #242B37;
+    font-weight: 600;
+    font-size: 3rem;
+   
+    font-weight: 500;
+}
+
+#section-two h2:nth-child(1) {
+    margin: 4rem 0;
+}
+
+#section-two p {
+    margin: 2rem 0;
+    color: #242B37;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+#section-two h2:nth-child(2) {
+    margin-top: 10rem;
+    line-height: 4rem;
+}
+
+
+/* HighLights */
+#section-highlights {
+    background-color: #111111;
+    color: #fff;
+    margin-top: 4rem;
+}
+
+.highlights-container {
+    margin: 0 auto;
+}
+
+.highlights-header {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.highlights-header h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.highlights-header p{
+
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    line-height: 1.6;
+}
+
+.item h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.item p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.item:nth-child(4) {
+    margin-bottom: 8rem;
+}
+
+.salmon-img {
+    background: url(/Dining-Place/images/homepage/salmon-mobile@2x.jpg) center no-repeat;
+    background-size: contain;
+    height: 32rem;
+}
+.filet-img {
+    background: url(/Dining-Place/images/homepage/beef-mobile@2x.jpg) center no-repeat;
+    background-size: contain;
+    height: 32rem;
+}
+.chocolate-img {
+    background: url(/Dining-Place/images/homepage/chocolate-mobile@2x.jpg) center no-repeat;
+    background-size: contain;
+    height: 32rem;
+}
+
+/* Gathering */
+#section-gathering {
+    margin-top: 7rem;
+}
+
+.gathering-container {
+    margin: 0 auto;
+}
+.gathering-img {
+    width: 100%;
+    height: 42rem;
+    background: url(/Dining-Place/images/homepage/family-gathering-mobile@2x.jpg) center no-repeat;
+    background-repeat: no-repeat;
+    box-shadow: 0 5rem 2rem rgba(0, 0, 0, 0.164);
+}
+
+.gathering-list {
+    margin-top: 4rem ;
+}
+
+.gathering-list h3 {
+    margin: 3rem 0;
+    font-weight: 600;
+    font-style: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+
+.gathering-text h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #242B37;
+}
+.gathering-text p{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #242B37;
+}
+
+/* Reservation */
+#reservation {
+    margin-top: 9rem;
+    height: 40vh;
+    background: url(/Dining-Place/images/homepage/ready-bg-mobile@2x.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.reservation-container {
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.reservation-container h1 {
+    font-size: 3.1rem;
+    font-weight: 600;
+}
+
+.reservation-container .btn {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Footer */
+#footer {
+    background-color: #111111;
+    height: 50vh;
+    text-align: center;
+    color: #fff;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer .logo {
+    margin-top: 8rem;
+}
+
+#footer .address {
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    width: 50%;
+    line-height: 2;
+    letter-spacing: .2rem;
+    font-weight: 400;
+}
+
+#footer .times {
+    margin-top: 4rem;
+}
+#footer .times p{
+    margin-top: 1.3rem;
+}
